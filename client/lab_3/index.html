@@ -1,5 +1,44 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanessa Aguocha-Sam Lab 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"><h1>Vanessa's Labs For INST377</h1></header>
+    <div class="container">
+      <div class="left_section box"><h3>Album Names</h3>
+        <ol class="box">
+          <li>Be The Cowboy - Mitski</li>
+          <li>Renaissance - Beyonce</li>
+          <li>CTRL - SZA</li>
+          <li>After Hours - The Weekend</li>
+          <li>Raves and Roses - Rema</li>
+        </ol>
+      </div>
+      <div class="right_section box"><h3>Image Carousel</h3>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+              <div class="carousel_item visible"><img id="slide_1" src="images/food (2).PNG" alt="bowl of ramen"></div>
+              <div class="carousel_item hidden"><img id="slide_2" src="images/headshot (2).PNG" alt="my professional headshot"></div>
+              <div class="carousel_item hidden"><img id="slide_3" src="images/hiking (2).PNG" alt="hiking at great falls"></div>
+              <div class="carousel_item hidden"><img id="slide_4" src="images/pic of me (2).PNG" alt="me at the griffth observatory"></div>
+            </div>
+            <button class="next">next</button>
+        </div>
+        <div>
+          <h4 class="subtitle box">The images above are of me hiking, exploring popular attractions in Los Angeles, my professional headshot, and one of my favorite meals.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer class="footer"><a href="http://github.com/vanessanutella" target="_blank" rel="noopener noreferrer">Vanessa's GitHub Account</a></footer>
+  </div>
+  <script src="script.js" ></script>
+</body>
+</html>
