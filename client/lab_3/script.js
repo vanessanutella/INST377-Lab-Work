@@ -49,7 +49,7 @@ function moveToPrevSlide() {
     and if so, sets your slidePosition to the last slide position in totalSlides
     if not, set the slidePosition to the current position minus one
   */
- if(slidesArray === 0) {
+ if(slidePosition === 0) {
     slidePosition = totalSlides -1;
  } else {
     slidePosition -=1;
