@@ -1,3 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanessa's Labs for INST377</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Vanessa's Labs for INST377</h1>
+      </header>
+      <div class="container">
+        <div class="left_section box">
+            <h3>Form Inputs</h3>
+            <form action="https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json" class="box main_form">
+            <h5>Restaurant Name</h5>
+            <label for="resto"></label>
+            <input type="text" id="resto" name="resto"/>
+            <button type="submit">Load Data</button>
+            <button type="button" class="filter_button">Filter Data</button>
+          </form>
+        </div>
+        <div class="right_section box">
+          <h3>Local Restaurants</h3>
+          <div class="restaurant_list box">A List of Local Restaurants</div>
+        </div>
+      </div>
+    </div>
+    <div>
+        <footer class="footer"><a href="http://github.com/vanessanutella" target="_blank" rel="noopener noreferrer">Vanessa's GitHub Account</a></footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
 <!-- Bring in your successful HTML/CSS from the Flexbox lab -->
 <!-- Your page will need a form in it, but that form will not need an action
     You will need to add the attribute "name" to your input
