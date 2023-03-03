@@ -291,6 +291,12 @@
     display: block; /* this turns the label text into a box we can set margins on */
     margin-bottom: 0.5rem;
   }
+
+  .buttons {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
   
   /* How To Write A Media Query For Small Screens */
   
@@ -308,9 +314,5 @@
         width: 100%;
       }
   }
-/* CSS instructions for Lab 5 */
-/* Bring in your successful CSS from week 4 */
-/*
-    Add a flexbox class that will keep two buttons nicely styled next to one another
-    under your HTML form and input field
- */
+
+
