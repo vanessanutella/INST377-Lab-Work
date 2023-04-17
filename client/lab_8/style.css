@@ -115,6 +115,13 @@
     Rules may combine in unexpected ways - remember that the LAST thing written in this file will have "priority"
     And will be what displays in your client
   */
+
+  #map {
+    width: 400px;
+    height: 380px;
+    border: 2px dashed rgb(99, 99, 99);
+    margin-bottom: 1rem;
+  }
   
   .box {
     background-color: #A3B9C9;
